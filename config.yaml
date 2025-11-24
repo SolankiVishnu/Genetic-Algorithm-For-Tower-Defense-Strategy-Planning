@@ -1,0 +1,15 @@
+game:
+  path_length: 20
+  num_slots: 8
+  lives: 10
+  enemy_hp_base: 10.0
+  enemy_hp_scale_per_wave: 2.0
+
+genetic_algorithm:
+  population_size: 40
+  num_generations: 50
+  crossover_rate: 0.8
+  mutation_rate: 0.1
+  budget: 80.0
+  num_simulations_eval: 3
+  seed: 42
